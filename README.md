@@ -10,14 +10,31 @@
 - Ignacio Joan Morón
 
 ## Reglas y alcance
-Batalla naval en consola orientada a la experiencia ágil contra la máquina. IA básica para búsqueda de barcos contiguos tras impacto, interfaz en caracteres ASCII y reporte de turnos empleados.
-*Observación: cada integrante debe poseer su propio usuario para trazabilidad individual de aportes.*
+El proyecto consiste en desarrollar Batalla Naval con interfaz por consola y modalidad jugador contra CPU.
+
+Se mostrarán dos tableros de 10 × 10: uno propio y otro del oponente.
+
+La propuesta contempla:
+
+- colocación manual de la flota;
+- validación de posiciones;
+- sistema de turnos para disparar mediante coordenadas;
+- detección de impacto, hundimiento y fin de partida;
+- uso de estructuras como `struct Barco` y `struct Jugador`;
+- guardado de puntajes en archivo.
+
+La flota propuesta es:
+
+- 1 portaaviones de 5 casillas;
+- 1 acorazado de 4 casillas;
+- 2 cruceros de 3 casillas;
+- 2 submarinos de 2 casillas.
 
 ## Compilación y ejecución
-<!-- Indicar comandos de compilación (ej. gcc main.c ...) y dependencias necesarias -->
+<!-- Completar con los comandos de compilación y ejecución y las dependencias necesarias -->
 
 ## Organización de datos y funciones
 <!-- Describir estructuras principales, módulos y flujo general -->
 
 ## Interfaz gráfica
-<!-- Completar únicamente cuando corresponda al alcance del proyecto -->
+No corresponde al alcance aprobado actualmente.
